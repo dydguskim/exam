@@ -13,7 +13,7 @@ ID : <?=$row['id']?><br>
 등록날짜 : <?=$row['regDate']?><br>
 조회수 : <?=$row['viewCnt']?><br>
 제목 : <?=$row['title']?><br>
-
+sss
 <br>
 
 <?php
@@ -60,4 +60,3 @@ function deleteReply(replyId) {
 	<a href="add.php">생성</a>
 	<a href="modify.php?id=<?=$row['id']?>">수성</a>
 </div>
-
